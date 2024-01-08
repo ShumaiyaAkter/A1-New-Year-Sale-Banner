@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 83%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.new-year-banner{
+    background-image: url("../resources/Banner.png");
+    width: 100%;
+    height: 580px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-position: absolute;
+    background-repeat: none;
+    
+}
+.container h3{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 177px 530px 10px 531px;
+position: relative;
+}
+.container h1{
+    color: #FFF;
+text-align: center;
+position: relative;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
