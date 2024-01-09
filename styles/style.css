@@ -148,3 +148,132 @@ line-height: 30px; /* 166.667% */
     align-items: center;
     
 }
+
+.best-gifts{
+    width: 83%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 180px;
+
+}
+
+.gift-portfolio{
+    padding: 120px 120px ;
+    margin: 0px auto;
+}
+    
+
+.best-gifts .gift-portfolio .portfolio-text{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 120px 120px;
+}
+
+.portfolio-title{
+    color:#F00;
+}
+
+.best-gifts .gift-portfolio .portfolio-text h3{
+    color: #070211;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.best-gifts .gift-portfolio .portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.portfolio-img{
+    margin: 20px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+img{
+    width: 100%;
+    height: Auto;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+
+    
+
+.newsletter-full{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1320px;
+    height: auto;
+    margin: 0px auto;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+.icon{
+    width: 10%;
+    padding-top: 80px;
+}
+
+.subscribe-newsletter{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.newsletter-paragraph{
+    width:896px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.newsletter-form{
+    position: relative;
+
+}
+.email-box{
+width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+
+.subscribe-button{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+position: absolute;
+margin-left: -30px;
+}
