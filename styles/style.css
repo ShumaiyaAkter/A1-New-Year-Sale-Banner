@@ -209,7 +209,9 @@ img{
 }
 
 
-    
+    .newsletter{
+        padding-bottom: 300px;
+    }
 
 .newsletter-full{
     display: flex;
@@ -250,6 +252,7 @@ line-height: 32px; /* 160% */
 }
 .newsletter-form{
     position: relative;
+    padding: 40px 120px;
 
 }
 .email-box{
